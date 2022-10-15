@@ -72,7 +72,7 @@ print("Hello" + " " + "Angela")
 # Fix the code below 👇
 
 #print(Day 1 - String Manipulation") - SyntaxError: invalid syntax
-#print("String Concatenation is done with the "+" sign.") - 
+#print("String Concatenation is done with the "+" sign.") - change quotation marks
 #  print('e.g. print("Hello " + "world")') - IndentationError: unexpected indent
 #print(("New lines can be created with a backslash and n.") - SyntaxError: unexpected EOF while parsing
 
@@ -92,6 +92,6 @@ print("Hello" + " " + "Angela")
 # Solution 👇
 
 print("Day 1 - String Manipulation")
-print("String Concatenation is done with the "+" sign.")
+print('String Concatenation is done with the "+" sign.')
 print('e.g. print("Hello " + "world")')
 print("New lines can be created with a backslash and n.")
