@@ -55,9 +55,6 @@ print("Hello" + " " + "Angela")
 # iii - NameError: Mispelling
     #prnt("Hello Angela")
   #prompt = undefined name 'prnt'     
-# iv - IndentationError: Space at beginning of code
-    #   print("Hello Angela")
-  #prompt = 'Unexpected Indent'  
 
 # 5.0 Fixing Issues
 # When errors occur in multiple lines of code, the usually practice will be to 
@@ -66,6 +63,7 @@ print("Hello" + " " + "Angela")
 #    fix the error, and run the same sequence until all issues are fixed
 # Avoid this by using code intelligence 
 
-#Fix the code below 👇
-
+# 6.0 Debugging
+# Means to remove broken code
+# In the 1980s a moth flew into one of the early computers and got electricuted which stopped the program from working. It started working again after it was 'debugged' - the bug was removed and the wires were fixed
 
