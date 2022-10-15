@@ -60,10 +60,12 @@ print("Hello" + " " + "Angela")
   #prompt = 'Unexpected Indent'  
 
 # 5.0 Fixing Issues
+# When errors occur in multiple lines of code, the usually practice will be to 
+#    run the code which only shows the first issue
+#    find the error in the output
+#    fix the error, and run the same sequence until all issues are fixed
+# Avoid this by using code intelligence 
 
 #Fix the code below 👇
 
-#print(Day 1 - String Manipulation")
-#print("String Concatenation is done with the "+" sign.")
-#  print('e.g. print("Hello " + "world")')
-#print(("New lines can be created with a backslash and n.")
+
