@@ -41,12 +41,25 @@ print("Hello" + " " + "Angela")
 # 4.0 Using Code Intelligence
 # Text editors have some helpful features. 
 # Using this setting allows the computer to autocomplete functions, provide hints, and prompt you about errors in your code. You will notice a change in color and prompt highlight whenever you hover around the part of the code. 
-
-# with code intelligence enabled, the computer highlights an error in the code anytime it occurs. This allows you to see any errors while typing the text without the need to execute the code
-       
 # Can be turned on or off in settings
+# with code intelligence enabled, the computer highlights an error in the code anytime it occurs. This allows you to see any errors while typing the text without the need to execute the code
 
+# 4.0 Common Errors
+# Take note as these errors tend to occur often
+# i - IndentationError: Space at beginning of code
+    #  print("Hello Angela")
+  #prompt = 'Unexpected Indent'     
+# ii - SyntaxError: Not closing the print statment
+    #print("Hello Angela"
+  #prompt = 'unexpected EOF while parsing'   
+# iii - NameError: Mispelling
+    #prnt("Hello Angela")
+  #prompt = undefined name 'prnt'     
+# iv - IndentationError: Space at beginning of code
+    #   print("Hello Angela")
+  #prompt = 'Unexpected Indent'  
 
+# 5.0 Fixing Issues
 
 #Fix the code below 👇
 
