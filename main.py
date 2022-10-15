@@ -28,7 +28,7 @@ print("Hello" + " Angela")
 print("Hello" + " " + "Angela")
 #Note: If we think of Strings like a 'string' merging several characters together, then concatenation is the merging of several Strings together
 
-#Spaces are important
+# 3.0 Spaces are important
 # Take note of spaces not just within springs but the entire code
 # start every code at the beginning of the line to avoid an Indentation Error
 # print("Hello Angela")
@@ -37,6 +37,15 @@ print("Hello" + " " + "Angela")
 #    ^
 # IndentationError: unexpected indent
 # notice the caret sign at the bottom of print
+
+# 4.0 Using Code Intelligence
+# Text editors have some helpful features. 
+# Using this setting allows the computer to autocomplete functions, provide hints, and prompt you about errors in your code. You will notice a change in color and prompt highlight whenever you hover around the part of the code. 
+
+# with code intelligence enabled, the computer highlights an error in the code anytime it occurs. This allows you to see any errors while typing the text without the need to execute the code
+       
+# Can be turned on or off in settings
+
 
 
 #Fix the code below 👇
