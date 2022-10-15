@@ -49,8 +49,9 @@ print("Hello" + " " + "Angela")
 # i - IndentationError: Space at beginning of code
     #  print("Hello Angela")
   #prompt = 'Unexpected Indent'     
-# ii - SyntaxError: Not closing the print statment
+# ii - SyntaxError: Not closing the print statement with proper brackets
     #print("Hello Angela"
+    #print(("Hello Angela")
   #prompt = 'unexpected EOF while parsing'   
 # iii - NameError: Mispelling
     #prnt("Hello Angela")
@@ -70,12 +71,10 @@ print("Hello" + " " + "Angela")
 # Exercise 2 - Debugging Practice
 # Fix the code below 👇
 
-print(Day 1 - String Manipulation")
-print("String Concatenation is done with the "+" sign.")
-  print('e.g. print("Hello " + "world")')
-print(("New lines can be created with a backslash and n.")
-
-
+#print(Day 1 - String Manipulation") - SyntaxError: invalid syntax
+#print("String Concatenation is done with the "+" sign.") - 
+#  print('e.g. print("Hello " + "world")') - IndentationError: unexpected indent
+#print(("New lines can be created with a backslash and n.") - SyntaxError: unexpected EOF while parsing
 
 #Instructions
 # Look at the code in the code editor on the right. There are errors in all of the lines of code. Fix the code so that it runs without errors.
@@ -89,3 +88,10 @@ print(("New lines can be created with a backslash and n.")
 #String Concatenation is done with the "+" sign.
 #e.g. print("Hello " + "world")
 #New lines can be created with a backslash and n.
+
+# Solution 👇
+
+print("Day 1 - String Manipulation")
+print("String Concatenation is done with the "+" sign.")
+print('e.g. print("Hello " + "world")')
+print("New lines can be created with a backslash and n.")
