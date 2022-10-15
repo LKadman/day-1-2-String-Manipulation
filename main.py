@@ -28,6 +28,17 @@ print("Hello" + " Angela")
 print("Hello" + " " + "Angela")
 #Note: If we think of Strings like a 'string' merging several characters together, then concatenation is the merging of several Strings together
 
+#Spaces are important
+# Take note of spaces not just within springs but the entire code
+# start every code at the beginning of the line to avoid an Indentation Error
+# print("Hello Angela")
+#  File "main.py", line 34
+#    print("Hello Angela")
+#    ^
+# IndentationError: unexpected indent
+# notice the caret sign at the bottom of print
+
+
 #Fix the code below 👇
 
 #print(Day 1 - String Manipulation")
